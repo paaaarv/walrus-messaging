@@ -1,0 +1,88 @@
+body {
+  background-color: #001A57;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #339999;
+}
+.walrusLogo {
+  float:left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 22px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+}
+#contact {
+  border-style: double;
+  border-width: 2px;
+  border-color: #339999;
+  border-radius: 5px;
+  color:#B5B5B5;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  width: 500px;
+  align-self: center;
+  padding: 10px;
+  margin: 400px;
+}
+#contact-form{
+  color:#B5B5B5;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+.button {
+    border-radius: 4px;
+    background-color: #339999;
+    border: none;
+    color: #FFD960;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+  opacity:1;
+}
+
+input {
+  width: 150px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #339999;
+  font-size: 12px;
+
+}
+input:focus {
+    border: 2px solid white;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #235F9C;
+}
