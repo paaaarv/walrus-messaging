@@ -8,17 +8,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #339999;
+
 }
-.walrusLogo {
-  float:left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.navbar-custom {
+  background-color: #339999 !important;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 22px;
+  border-radius: 4px;
 }
 
 li {
